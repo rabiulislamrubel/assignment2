@@ -1,5 +1,6 @@
-//This is kilometerToMeter function
+// https://github.com/rabiulislamrubel/assignment2
 
+//This is kilometerToMeter function
 function kilometerToMeter(km){
     if(km < 0){
         return 'Please give positive value.';
@@ -9,7 +10,7 @@ function kilometerToMeter(km){
     }
     
 }
-var ktm = kilometerToMeter(1);
+var ktm = kilometerToMeter(5);
 console.log(ktm);
 
 //This is budgetCalculator function
@@ -25,7 +26,7 @@ function budgetCalculator(watch,mobile,laptop){
         return watchPrice + mobileprice + laptopPrice;
     }
 }
-var total = budgetCalculator(3,5,7);
+var total = budgetCalculator(4,5,6);
 console.log(total);
 
 //This is hotelCost function
@@ -54,12 +55,12 @@ function hotelCost(days){
         }
     }
 }
-var totalCost = hotelCost(22);
+var totalCost = hotelCost(13);
 console.log(totalCost);
 
 //This is megaFriend length function
 
-var arrName = ['rubelsgns','sohan','sohel','alamin','opu','kazi','hajlajdilanal'];
+var arrName = ['rubelsgns','afhoafoahfafhoafoanvvg','sohan','sohel','alamin','opu','kazi','hajlajdilanal','jaohaofvoawhfvoao'];
 
 function megaFriend(array){
     var maxLength = array[0].length;
