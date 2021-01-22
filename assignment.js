@@ -63,13 +63,15 @@ var arrName = ['rubelsgns','sohan','sohel','alamin','opu','kazi','hajlajdilanal'
 
 function megaFriend(array){
     var maxLength = array[0].length;
+    var bigName = '';
     for(var i =0; i < array.length; i++){
     var len = array[i].length;
         if(maxLength < len){
-            maxLength = len
+            maxLength = len;
+            bigName = array[i];
         }
     }
-    return maxLength;
+    return bigName;
 }
 var maxFriendNameLength = megaFriend(arrName);
 console.log(maxFriendNameLength);
